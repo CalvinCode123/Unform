@@ -1,0 +1,50 @@
+#navbar {
+  background-size: cover;
+  background-image: url("../assets/Capture.JPG");
+  padding: 0px 20px;
+  transition: background-size 0.3s ease, height 0.3s ease;
+  z-index: 1000; 
+}
+
+#nav-logo {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.sticky {
+  padding: 8px 20px !important;
+}
+
+.nav-custom-link {
+  font-weight: bold;
+  color: #000000 !important;
+}
+
+.nav-custom-link:hover {
+  color: #ffffff !important;
+  text-decoration: 3px solid underline !important;
+}
+
+.color-white {
+  color: #ffffff !important;
+}
+
+.nav-btn-icon {
+  color: #ffffff;
+}
+
+@media (max-width: 426px) {
+  #navbar {
+    padding: 5px 10px;
+  }
+  #nav-logo {
+    font-size: 20px;
+  }
+  .sticky {
+    padding: 2px 10px !important;
+  }
+}
+
+.pageTitle {
+  padding: 50px;
+}

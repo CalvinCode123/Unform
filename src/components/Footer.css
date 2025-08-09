@@ -1,0 +1,29 @@
+.footer {
+  margin: 0;
+  background-color: #ec4cb0;
+  color: white;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.section-footer-inner {
+  color: #ffffff;
+}
+
+.section-footer-inner {
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 426px) {
+  .footer {
+    padding: 30px 30px 20px 30px !important;
+  }
+
+  .footer-text {
+    font-size: 12px;
+  }
+}
