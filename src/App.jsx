@@ -53,7 +53,7 @@ function App() {
       )}
 
       <div ref={mainRef} style={{ opacity: 0 }}>
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
           <Layout>
             <Routes>
               <Route path="/" element={<Home />} />
