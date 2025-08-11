@@ -29,7 +29,6 @@ function Navbar() {
   return (
     <header>
       <nav
-        collapseOnSelect
         expand="false"
         id="navbar"
         className="black navbar navbar-expand-lg fixed-top"
